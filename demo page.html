@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            clear: both;
+            /*floating of elements not allowed on both sides*/
+            display: table;
+            /*behaves like <table> */
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+        html {
+            font-family: "Times New Roman";
+        }
+
+        .header {
+            background-color: #381111;
+            color: yellow;
+            padding: 15px;
+        }
+
+        .menu li:hover {
+            background-color: #6e6666;
+        }
+
+        .aside {
+            background-color: #8a8f82;
+            padding: 15px;
+            color: black;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px, 0 1px 2px;
+        }
+
+        .footer {
+            background-color: #51523c;
+            color: blue;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+
+        /*for mob phone*/
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width:768px) {
+
+            /*for desk top*/
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            <center>Welocome to this amazing world</center>
+        </h1>
+    </div>
+    </div>
+    <marquee style="color:red" ;"background-color:lightblue";>
+        <h1>Mastering the future</h1>
+    </marquee>
+    <div class="row" style="background-color:#381111;">
+        <div class="col3 menu" ;>
+            <ul>
+                <li><a href="https://pentagonspace.in/java-full-stack">Java</a></li>
+                <li><a href="https://pentagonspace.in/python-full-stack">Python</a></li>
+                <li><a href="https://pentagonspace.in/python-full-stack">HTML</a></li>
+                <li><a href="https://pentagonspace.in/python-full-stack">CSS</a></li>
+            </ul>
+        </div>
+
+        <div class="col-6">
+            <h1 style="color:red;">Pentagon Space</h1>
+            <p> <strong>
+                    Pentagon Space is the focal point for upskilling and reskilling.
+                    We provide training on niche technologies with placement
+                    assistance.</strong>
+            </p>
+        </div>
+        <div class="col3">
+            <div class="aside">
+                <h2 style="color:green;">Who?</h2>
+                <p><strong>For all BE/MCA graduates</strong></p>
+                <h2 style="color:green;">Where?</h2>
+                <p><strong> Space Bangalore</strong></p>
+                <h2 style="color:green;">When?</h2>
+                <p><strong>01/01/2050 at 10.am</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p><strong>Plot No.765,8th Cross Road, M.R.C.R Extension, Govindaraja Nagar, Bangalore-560040 </strong></p>
+        <p><strong> Mail: info@pentagonspace.in </strong> </p>
+        <p><strong>Phone No.: +91 99010 66669/+91 89511 82618 </strong></p>
+    </div>
+</body>
+
+</html>

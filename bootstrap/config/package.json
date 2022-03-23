@@ -1,0 +1,16 @@
+{
+  "name": "thbs-boot",
+  "version": "1.0.0",
+  "description": "this is demo bootstrap class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "munit",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "moment": "^2.29.1",
+    "react": "^17.0.2"
+  }
+}

@@ -1,0 +1,173 @@
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 60px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 60px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+.search bar{
+    display: table;
+    height: 100%;
+    float: right;
+    margin-left:5000px ;
+    margin: top 2000px; ;
+    
+    
+}
+
+header nav .button{
+    color: blue;
+    padding: -160px;
+    border-radius: 4px;
+    float: right;
+    margin-right: 35px;
+    
+}
+header{
+    width: 100vw;
+    height: 60px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+.top-img1{
+    width: 535px;
+    height: 400px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 70px;
+
+}
+
+.thbs-text1{
+    color: #4285f4;;
+    margin-top: 79px;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: top 100px; 
+    line-height: 1;
+}
+.ALWAYS-ON1{
+    color:black;
+    margin-right: 482px;
+    font-size: 20px;
+    float: right;
+    padding-top: -39px; 
+}
+
+.thbs-text2{
+    color:black;
+    margin-top: -20px;
+    margin-left: 45px;
+    font-size: 27px;
+    padding: top 100px;
+    padding: left 200px; ; 
+}
+.button {
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px -303px;
+    margin-left: 49px;
+}
+
+.button1 {
+    background-color: #4285f4;
+    display: oval;
+}
+
+.page {
+    color:black;
+    margin-top: 149px;
+    margin-left: 116px;
+    font-size: 30px;
+    padding: top 100px; 
+    line-height: 1.2;
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.center {
+    margin-left: 628px;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  .ALWAYS-ON2{
+    color:black;
+    margin-right: 1015px;
+    font-size: 20px;
+    float: right;
+    padding-top: 200px; 
+    margin: top 300px; ;
+}
+

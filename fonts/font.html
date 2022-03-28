@@ -12,22 +12,236 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <i class="fa fa-solid fa-angles-left"></i>
 
-    <br>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="images/hhh.png" class="img-thumbnail" alt="hhhh">
+                <a class="navbar-brand" href="#">Product Experts</a>
 
-    <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">What it is</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Directory</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="vr" style="height: 37px;"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign up</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-primary" type="submit">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-    <span class="sr-only">Loading...</span>
-    <i class="fa fa-solid fa-angles-left"></i>
+        <br>
+        <!-- cards -->
+        <div class="container" style="background-color: blue;">
+            <br>
+            <div class="row">
+                <div class="col"> </div>
+                <div class="col mb-2">
+                    <div class="card" style="width: 18rem; height: 22rem;">
+                        <br>
+                        <img class="card-img-top" style="border-radius: 50%;" src="images/app.png" width="172"
+                            height="174" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-text" style="text-align: center;">ADAM</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
 
-    <br>
+                            <p>Blogger, Google Account</p>
+                        </div>
+                    </div>
+                </div>
 
-    <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+                <div class="col mb-2">
+                    <div class="card" style="width: 18rem; height: 22rem;">
+                        <br>
+                        <img class="card-img-top" style="border-radius: 50%;" src="images/man.png" width="172"
+                            height="174" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-text" style="text-align: center;">Jacek N.Koziol</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>Google bussiness profile googl</p>
+                        </div>
+                    </div>
 
-    <span class="sr-only">Loading...</span>
+                </div>
 
-</body>
+                <div class="col mb-2">
+                    <div class="card" style="width: 18rem; height: 22rem;">
+                        <br>
+                        <img class="card-img-top" style="border-radius: 50%;" src="images/jj.png" width="172"
+                            height="174" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-text" style="text-align: center;">Leonid Smith</h6>
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>Google photos,youtube +3</p>
+
+
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">
+                                Launch demo modal
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="card-img-top" style="border-radius: 50%;" src="images/jj.png" width="172"
+                                            height="174 alt="Card image cap">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <br>
+        </div>
+
+        </div>
+
+        <!-- layout -->
+        <br> <br>
+        <div class="container mt-10" style="background-color: #F0F0F0;">
+            <p>Get the<b>TOP POSITION,</b>place your AD with Justdial</p>
+            <div class="row mt-3">
+                <div class="col-6">
+                    <label for="name" class="form-label">Enter your Details below</label>
+                    <input type="text" class="form-control" id="name" placeholder="Company Name*">
+
+                </div>
+                <div class="col-4 mt-4">
+                    <label for="name" class="form-label"></label>
+                    <input type="text" class="form-control" id="name" placeholder="Priya P Shetty">
+                </div>
+
+            </div>
+            <div class="row mt-4">
+                <div class="col-2 ">
+                    <select id="inputState" class="form-select">
+                        <option selected>Title</option>
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-5">
+                    <div class="input-group-text">+91
+                        <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="Mobile No">
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fa-thin fa-circle-plus"></i>
+                </div>
+                <div class="col-5">
+                    <div class="input-group-text">253
+                        <input type="number" class="form-control" id="autoSizingInputGroup"
+                            placeholder="Landline number">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <i class="fa-thin fa-circle-plus"></i>
+                </div>
+            </div>
+            <div class="row" style="text-align: right;">
+                <div class="col-3 mt-3">
+                    <p>* denotes mandatory fields</p>
+                </div>
+                <div class="col mt-4 ">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <br>
+        </div>
+        </div>
+
+        </div>
+        </div>
+
+       <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+        </div> 
+
+        <div id="alert-holder"><!--  --></div>
+    
+       
+    <button id="btn" class="btn btn-primary">
+    show alert</button>
+    
+        <script>
+
+                let mycloseBtn = document.getElementById("close-alert")
+
+
+            let btnalert = document.getElementById("btn");
+    
+            let alhold = document.getElementById("alert-holder");
+    
+            btnalert.addEventListener('click', function () {
+    
+                let wrapper = document.createElement('div');
+    
+                let altelement = "<div  class='alert alert-primary alert-dismissible' role='alert'>A simple primary alert—check it out!</div> ";
+    
+                wrapper.innerHTML = altelement;
+    
+                alhold.append(wrapper);
+    
+            });
+    
+        </script>
+
+
+    </body>
+
+    </html>
 
 </html>
